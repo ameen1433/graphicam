@@ -1,0 +1,132 @@
+.bg-homepage{
+
+    background-image: url(images/background2.0.jpeg);
+    
+    background-attachment: fixed;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+.home-image{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+.home-par-head{
+    margin-top: 32px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(117, 78, 78)
+}
+.home-image-control{
+    width: 550px;
+    height: 350px;
+}
+
+.home-par-title{
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
+    width: 100%; // Add this
+    }
+    .contact-section-title{
+        color: #D38889;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 70.2px;
+     }
+     .contact-row-align{
+        margin-top: 20px;
+        margin-left: 10px;
+     }
+     .input-control{
+        background: black;
+        width: 460px;
+        height: 50px;
+        padding-left: 20px;
+        border-radius: 15px;
+        margin-top: 20px;
+     }
+     .message-control{
+        background: black;
+        padding-left: 20px;
+        border-radius: 15px;
+        margin-top: 20px;
+        width: 460px;
+        padding-top: 10px;
+     }
+     ::placeholder {
+        color: white;
+        opacity: 1; /* Firefox */
+      }
+      #contact-page{
+        height: 100%;
+      }
+      .form-control{
+        
+      }
+      .btn-primary{
+        margin-left: 50px;
+      }
+      input::placeholder {
+        color: white
+    }
+    .name-control{
+        width: 455px;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 10px;
+        
+    }
+    .email-control{
+        width: 455px;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 10px;
+        
+    }
+    .message-control{
+        padding-left: 10px;
+        border-radius: 10px;
+        
+    }
+
+@media only screen and (max-width:820px){
+    .home-image-control{
+        width: 450px;
+        height: 350px;
+    }
+}
+@media only screen and (max-width:412px){
+    .home-image-control{
+        width: 350px;
+        height: 200px;
+        padding-right: 50px;
+
+    }
+}
+@media only screen and (max-width:420px){
+    .bg-homepage{
+
+        height: 800px;
+    }
+}
+@media only screen and (max-width:768px){
+    .bg-homepage{
+
+        height: 800px;
+    }
+}
