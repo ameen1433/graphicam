@@ -130,3 +130,25 @@
         height: 800px;
     }
 }
+@media only screen and (max-width:380px){
+    .name-control{
+        width: 300px;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 10px;
+        
+    }
+    .email-control{
+        width: 300px;
+        height: 40px;
+        padding-left: 10px;
+        border-radius: 10px;
+        
+    }
+    .message-control{
+        width: 300px;
+        padding-left: 10px;
+        border-radius: 10px;
+        
+    }
+}
